@@ -1,0 +1,26 @@
+{
+  "name": "asif-jalal-bijnori-api",
+  "version": "1.0.0",
+  "description": "REST API server for Asif Jalal Bijnori poetry website",
+  "main": "example-api-server.js",
+  "scripts": {
+    "start": "node example-api-server.js",
+    "dev": "nodemon example-api-server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "poetry",
+    "api",
+    "rest",
+    "express",
+    "nodejs"
+  ],
+  "author": "Asif Jalal Bijnori",
+  "license": "MIT"
+}
