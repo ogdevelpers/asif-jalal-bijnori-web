@@ -1,8 +1,8 @@
 import { apiClient } from './api'
-import type { Collection, Poem } from './api'
-import { dummyCollections, dummyPoems } from './dummy-data'
+import type { Collection, Poem, GalleryItem } from './api'
+import { dummyCollections, dummyPoems, dummyGalleryItems } from './dummy-data'
 
-export type { Collection, Poem }
+export type { Collection, Poem, GalleryItem }
 
 // API Functions for collections and poems
 export async function getCollections(): Promise<Collection[]> {
@@ -92,4 +92,19 @@ function getFallbackCollections(): Collection[] {
   })
 
   return collections
+}
+
+export async function getGalleryItems(): Promise<GalleryItem[]> {
+  // Use fallback data directly in development mode
+  if (process.env.NODE_ENV === 'development' || !process.env.NEXT_PUBLIC_API_URL) {
+    return dummyGalleryItems
+  }
+  
+  try {
+    const response = await apiClient.getGalleryItems()
+    return response.data
+  } catch (error) {
+    console.error('Error fetching gallery items:', error)
+    return dummyGalleryItems
+  }
 }

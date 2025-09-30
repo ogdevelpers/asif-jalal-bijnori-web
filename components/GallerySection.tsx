@@ -1,9 +1,7 @@
-export default function GallerySection() {
-  const galleryItems = Array.from({ length: 8 }, (_, i) => ({
-    id: i + 1,
-    title: `Gallery Item ${i + 1}`,
-    description: 'Poetry collection or event photo'
-  }))
+import { getGalleryItems } from '@/lib/collections'
+
+export default async function GallerySection() {
+  const galleryItems = await getGalleryItems()
 
   return (
     <section id="gallery" className="gallery-section">
@@ -23,26 +21,23 @@ export default function GallerySection() {
               key={item.id}
               className="gallery-item"
             >
-              {/* Placeholder for gallery images */}
               <div className="gallery-item-content">
-                <div className="gallery-item-icon">
-                  <div className="gallery-item-icon-inner"></div>
-                </div>
-                <p className="gallery-item-title">{item.title}</p>
-                <p className="gallery-item-description">
-                  {item.description}
-                </p>
+                <img 
+                  src={item.image} 
+                  alt={item.title}
+                  className="gallery-image"
+                />
               </div>
             </div>
           ))}
         </div>
 
         {/* View More Button */}
-        <div className="gallery-button-section">
+        {/* <div className="gallery-button-section">
           <button className="gallery-button">
             View More
           </button>
-        </div>
+        </div> */}
       </div>
     </section>
   )

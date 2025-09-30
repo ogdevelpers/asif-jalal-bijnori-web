@@ -12,7 +12,7 @@ export default function HeroSection() {
             <div className="hero-portrait">
               <div className="portrait-container">
                 <img 
-                  src="/images/author-mg.svg" 
+                  src="/images/author-about.svg" 
                   alt="Asif Jalal Bijnori" 
                   className="portrait-image"
                 />
@@ -22,6 +22,17 @@ export default function HeroSection() {
             {/* Text Content */}
             <div className="hero-text">
               <div className="text-content">
+                {/* Couplet */}
+                <div className="hero-couplet">
+                  <p className="couplet-text">
+                    Mere shaoor ki ye had nahi to phir kya hai
+                  </p>
+                  <p className="couplet-text">
+                    Khuda ko sajda kiya hai ali ke hote huye
+                  </p>
+                  {/* <p className="couplet-author">Asif Jalal bijnori ✍🏻</p> */}
+                </div>
+                
                 {/* Main Name */}
                 <h1 className="hero-title">
                   Asif Jalal Bijnori

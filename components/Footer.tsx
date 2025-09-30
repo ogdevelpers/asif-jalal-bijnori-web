@@ -23,16 +23,16 @@ export default function Footer() {
                   href="tel:+919878787876" 
                   className="footer-contact-link"
                 >
-                  +91 98787 87876
+                  +91 9717908062
                 </a>
               </p>
-              <p className="footer-contact-item">
-                <a 
+              <p className="footer-contact-item" style={{color: "#58412C"}}>
+                {/* <a 
                   href="mailto:abc@gmail.com" 
                   className="footer-contact-link"
-                >
-                  abc@gmail.com
-                </a>
+                > */}
+                  C-Block,Rajeev nagar, Mandoli, Delhi 110093
+                {/* </a> */}
               </p>
             </div>
           </div>
@@ -40,7 +40,7 @@ export default function Footer() {
           {/* Social Icons */}
           <div className="footer-social">
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/asifjalalbijnori_official?igsh=MWRqcWZxMDNhcjI1Zg=="
               target="_blank"
               rel="noopener noreferrer"
               className="footer-social-link"
@@ -49,7 +49,7 @@ export default function Footer() {
               <Instagram size={24} />
             </a>
             <a
-              href="https://youtube.com"
+              href="https://youtube.com/@asifjalalbijnori7628?si=QjvJ1D8oLu3UuV5Q"
               target="_blank"
               rel="noopener noreferrer"
               className="footer-social-link"
@@ -58,7 +58,7 @@ export default function Footer() {
               <Youtube size={24} />
             </a>
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/share/16qGQEpqMT/?mibextid=wwXIfr"
               target="_blank"
               rel="noopener noreferrer"
               className="footer-social-link"

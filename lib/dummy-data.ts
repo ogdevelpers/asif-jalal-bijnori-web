@@ -321,45 +321,171 @@ Through his poetry, he continues to inspire people to connect with their faith a
 export const dummyGalleryItems: GalleryItem[] = [
   {
     id: '1',
-    title: 'Poetry Recitation at Religious Gathering',
-    image: '/images/gallery/recitation-1.jpg',
-    description: 'Performing traditional Nohey at a local religious gathering',
+    title: 'Image 1',
+    image: '/images/image_1.jpeg',
+    description: '',
     createdAt: '2024-01-01T00:00:00Z'
   },
   {
     id: '2',
-    title: 'Book Launch Event',
-    image: '/images/gallery/book-launch.jpg',
-    description: 'Launch of the latest poetry collection',
+    title: 'Image 2',
+    image: '/images/image_2.jpeg',
+    description: '',
     createdAt: '2024-01-02T00:00:00Z'
   },
   {
     id: '3',
-    title: 'Community Workshop',
-    image: '/images/gallery/workshop.jpg',
-    description: 'Teaching traditional poetry forms to young poets',
+    title: 'Image 3',
+    image: '/images/image_3.jpeg',
+    description: '',
     createdAt: '2024-01-03T00:00:00Z'
   },
   {
     id: '4',
-    title: 'Religious Conference',
-    image: '/images/gallery/conference.jpg',
-    description: 'Speaking at an international Islamic poetry conference',
+    title: 'Image 4',
+    image: '/images/image_4.jpeg',
+    description: '',
     createdAt: '2024-01-04T00:00:00Z'
   },
   {
     id: '5',
-    title: 'Cultural Festival',
-    image: '/images/gallery/festival.jpg',
-    description: 'Performing at the annual cultural festival',
+    title: 'Image 5',
+    image: '/images/image_5.jpeg',
+    description: '',
     createdAt: '2024-01-05T00:00:00Z'
   },
   {
     id: '6',
-    title: 'Youth Program',
-    image: '/images/gallery/youth-program.jpg',
-    description: 'Engaging with young people through poetry',
+    title: 'Image 6',
+    image: '/images/image_6.jpeg',
+    description: '',
     createdAt: '2024-01-06T00:00:00Z'
+  },
+  {
+    id: '7',
+    title: 'Image 7',
+    image: '/images/image_7.jpeg',
+    description: '',
+    createdAt: '2024-01-07T00:00:00Z'
+  },
+  {
+    id: '8',
+    title: 'Image 8',
+    image: '/images/image_8.jpeg',
+    description: '',
+    createdAt: '2024-01-08T00:00:00Z'
+  },
+  {
+    id: '9',
+    title: 'Image 9',
+    image: '/images/image_9.jpeg',
+    description: '',
+    createdAt: '2024-01-09T00:00:00Z'
+  },
+  {
+    id: '10',
+    title: 'Image 10',
+    image: '/images/image_10.jpeg',
+    description: '',
+    createdAt: '2024-01-10T00:00:00Z'
+  },
+  {
+    id: '11',
+    title: 'Image 11',
+    image: '/images/image_11.jpeg',
+    description: '',
+    createdAt: '2024-01-11T00:00:00Z'
+  },
+  {
+    id: '12',
+    title: 'Image 12',
+    image: '/images/image_12.jpeg',
+    description: '',
+    createdAt: '2024-01-12T00:00:00Z'
+  },
+  {
+    id: '13',
+    title: 'Image 13',
+    image: '/images/image_13.jpeg',
+    description: '',
+    createdAt: '2024-01-13T00:00:00Z'
+  },
+  {
+    id: '14',
+    title: 'Image 14',
+    image: '/images/image_14.jpeg',
+    description: '',
+    createdAt: '2024-01-14T00:00:00Z'
+  },
+  {
+    id: '15',
+    title: 'Image 15',
+    image: '/images/image_15.jpeg',
+    description: '',
+    createdAt: '2024-01-15T00:00:00Z'
+  },
+  {
+    id: '16',
+    title: 'Image 16',
+    image: '/images/image_16.jpeg',
+    description: '',
+    createdAt: '2024-01-16T00:00:00Z'
+  },
+  {
+    id: '17',
+    title: 'Image 17',
+    image: '/images/image_17.jpeg',
+    description: '',
+    createdAt: '2024-01-17T00:00:00Z'
+  },
+  {
+    id: '18',
+    title: 'Image 18',
+    image: '/images/image_18.jpeg',
+    description: '',
+    createdAt: '2024-01-18T00:00:00Z'
+  },
+  {
+    id: '19',
+    title: 'Image 19',
+    image: '/images/image_19.jpeg',
+    description: '',
+    createdAt: '2024-01-19T00:00:00Z'
+  },
+  {
+    id: '20',
+    title: 'Image 20',
+    image: '/images/image_20.jpeg',
+    description: '',
+    createdAt: '2024-01-20T00:00:00Z'
+  },
+  {
+    id: '21',
+    title: 'Image 21',
+    image: '/images/image_21.jpeg',
+    description: '',
+    createdAt: '2024-01-21T00:00:00Z'
+  },
+  {
+    id: '22',
+    title: 'Image 22',
+    image: '/images/image_22.jpeg',
+    description: '',
+    createdAt: '2024-01-22T00:00:00Z'
+  },
+  {
+    id: '23',
+    title: 'Image 23',
+    image: '/images/image_23.jpeg',
+    description: '',
+    createdAt: '2024-01-23T00:00:00Z'
+  },
+  {
+    id: '24',
+    title: 'Image 24',
+    image: '/images/image_24.jpeg',
+    description: '',
+    createdAt: '2024-01-24T00:00:00Z'
   }
 ];
 

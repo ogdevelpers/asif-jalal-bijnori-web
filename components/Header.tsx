@@ -79,7 +79,7 @@ export default function Header() {
             {/* Desktop: Social Icons on right */}
             <div className="desktop-social">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/asifjalalbijnori_official?igsh=MWRqcWZxMDNhcjI1Zg=="
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-link"
@@ -87,7 +87,7 @@ export default function Header() {
                 <Instagram size={20} />
               </a>
               <a
-                href="https://youtube.com"
+                href="https://youtube.com/@asifjalalbijnori7628?si=QjvJ1D8oLu3UuV5Q"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-link"
@@ -95,7 +95,7 @@ export default function Header() {
                 <Youtube size={20} />
               </a>
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/share/16qGQEpqMT/?mibextid=wwXIfr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-link"
@@ -206,7 +206,7 @@ export default function Header() {
               <div className="mobile-social-container">
                 <div className="mobile-social-links">
                   <a
-                    href="https://instagram.com"
+                    href="https://www.instagram.com/asifjalalbijnori_official?igsh=MWRqcWZxMDNhcjI1Zg=="
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mobile-social-link"
@@ -215,7 +215,7 @@ export default function Header() {
                     <Instagram size={24} />
                   </a>
                   <a
-                    href="https://youtube.com"
+                    href="https://youtube.com/@asifjalalbijnori7628?si=QjvJ1D8oLu3UuV5Q"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mobile-social-link"
@@ -224,7 +224,7 @@ export default function Header() {
                     <Youtube size={24} />
                   </a>
                   <a
-                    href="https://facebook.com"
+                    href="https://www.facebook.com/share/16qGQEpqMT/?mibextid=wwXIfr"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mobile-social-link"
